@@ -4,9 +4,12 @@ Simple demo of the [Serverless framework](https://serverless.com/), that simplif
 
 ## Deploy
 To deploy to a dev stage in default AWS region (us-east-1):
-```serverless deploy```
+```
+serverless deploy
+```
 
 The output will indicate the endpoint created by the framework, e.g.:
+
 ```
 endpoints:
   GET - https://<some string>.execute-api.us-east-1.amazonaws.com/dev/hello
